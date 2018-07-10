@@ -39,20 +39,19 @@ Settings
 
 *   required settings::
 
-    # for sending emails
-    EMAIL_USE_TLS = True
-    EMAIL_USERNAME = env('EMAIL_USERNAME')
-    SEND_EMAIL_VIA = 'ses'
-    # 'ses' or 'sendgrid' or 'gmail'
+        # for sending emails
+        EMAIL_USE_TLS = True
+        EMAIL_USERNAME = env('EMAIL_USERNAME')
+        SEND_EMAIL_VIA = 'ses'
+        # 'ses' or 'sendgrid' or 'gmail'
 
 *   To send email via AWS ses::
 
-
-    AWS_ACCESS_KEY = AAAAAAAAAAAAAAAA
-    AWS_ACCESS_SECRET = SSSSSSSSSSSSSSSSSSSSSSSSS
+        AWS_ACCESS_KEY = AAAAAAAAAAAAAAAA
+        AWS_ACCESS_SECRET = SSSSSSSSSSSSSSSSSSSSSSSSS
 
 
 *   To send email via sendgrid::
 
-    # install via : pip install sendgrid
-    SENDGRID_API_KEY = dklsdsldskdmlkmdskldmsadksldmskadlmskmslk
+        # install via : pip install sendgrid
+        SENDGRID_API_KEY = dklsdsldskdmlkmdskldmsadksldmskadlmskmslk
