@@ -16,7 +16,10 @@ Description: =====
         -----------
         
         1. download latest version of this app from dist folder and then run command to install in your virtualenv :
+        
             pip install /path/to/downloaded/file
+            pip install sendgrid
+            pip install boto3
         
         2. Add below app to your INSTALLED_APPS setting like this::
         
