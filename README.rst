@@ -49,12 +49,10 @@ Settings
 
 
     AWS_ACCESS_KEY = AAAAAAAAAAAAAAAA
-    
     AWS_ACCESS_SECRET = SSSSSSSSSSSSSSSSSSSSSSSSS
 
 
 *   To send email via sendgrid::
 
     # install via : pip install sendgrid
-    
     SENDGRID_API_KEY = dklsdsldskdmlkmdskldmsadksldmskadlmskmslk
