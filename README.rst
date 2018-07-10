@@ -7,7 +7,7 @@ This is simple app that included functions to directly use email sending functio
 Quick start
 -----------
 
-1. download latest version of this app from dist folder and then run command to install in your virtualenv :
+1. download latest version of this app from dist folder and then run command to install in your virtualenv ::
 
     pip install /path/to/downloaded/file
     
@@ -22,7 +22,7 @@ Quick start
         'emails',
     ]
 
-3. How to use:
+3. How to use::
 
     from emails.send_email import SendEmailWrapper
     ok, message_id = SendEmailWrapper \
@@ -37,23 +37,23 @@ Settings
 *****
 
 
-*
+*   required settings::
 
-        # for sending emails
-        EMAIL_USE_TLS = True
-        EMAIL_USERNAME = env('EMAIL_USERNAME')
-        SEND_EMAIL_VIA = 'ses'
-        # 'ses' or 'sendgrid' or 'gmail'
+    # for sending emails
+    EMAIL_USE_TLS = True
+    EMAIL_USERNAME = env('EMAIL_USERNAME')
+    SEND_EMAIL_VIA = 'ses'
+    # 'ses' or 'sendgrid' or 'gmail'
 
-*   To send email via AWS ses:
-
-
-        AWS_ACCESS_KEY = AAAAAAAAAAAAAAAA
-        
-        AWS_ACCESS_SECRET = SSSSSSSSSSSSSSSSSSSSSSSSS
+*   To send email via AWS ses::
 
 
-*   To send email via sendgrid:
+    AWS_ACCESS_KEY = AAAAAAAAAAAAAAAA
+    
+    AWS_ACCESS_SECRET = SSSSSSSSSSSSSSSSSSSSSSSSS
+
+
+*   To send email via sendgrid::
 
     # install via : pip install sendgrid
     
