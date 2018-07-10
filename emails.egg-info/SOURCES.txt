@@ -1,0 +1,14 @@
+README.rst
+setup.py
+emails/__init__.py
+emails/admin.py
+emails/apps.py
+emails/models.py
+emails/send_email.py
+emails/tests.py
+emails/views.py
+emails.egg-info/PKG-INFO
+emails.egg-info/SOURCES.txt
+emails.egg-info/dependency_links.txt
+emails.egg-info/top_level.txt
+emails/migrations/__init__.py
