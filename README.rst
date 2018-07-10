@@ -2,7 +2,7 @@
 Emails app
 =====
 
-This is simple app that included functions to directly use email sending functionality.
+This is simple app that includes functions to directly use email sending functionality.
 
 Quick start
 -----------
